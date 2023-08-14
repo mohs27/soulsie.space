@@ -1,2 +1,2 @@
-# soulsie.space
-Portfolio and Biolink website | Updated 
+## Updated bio website
+![Babe](https://files.soulsie.xyz/assets/images/Babe.jpg)

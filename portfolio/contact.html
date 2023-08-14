@@ -1,0 +1,54 @@
+<!--
+    _____ _____  ______ _____ _____ _______ _____    _____ _               _____ __  __ _ 
+  / ____|  __ \|  ____|  __ \_   _|__   __/ ____|  / ____| |        /\   |_   _|  \/  | |
+ | |    | |__) | |__  | |  | || |    | | | (___   | |    | |       /  \    | | | \  / | |
+ | |    |  _  /|  __| | |  | || |    | |  \___ \  | |    | |      / /\ \   | | | |\/| | |
+ | |____| | \ \| |____| |__| || |_   | |  ____) | | |____| |____ / ____ \ _| |_| |  | |_|
+  \_____|_|  \_\______|_____/_____|  |_| |_____/   \_____|______/_/    \_\_____|_|  |_(_)
+  * Utility Page for soulsie.gay *
+  * Current source is made by https://github.com/soulsie
+  * License: MIT
+    - Notes:
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>@pyt3 - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="©️">
+    <meta property="og:type" content="site">
+    <meta name="theme-color" content="#0975B3">
+    <meta property="og:title" content="soulsie.gay">
+    <meta property="og:description" content="©️">
+    <meta itemprop="name" content="soulsie.gay">
+    <meta itemprop="image" content="https://files.soulsie.xyz/assets/images/fatgnormal.png">
+    <meta property="og:image" content="https://files.soulsie.xyz/assets/images/fatgnormal.png">
+    <link rel="shortcut icon" href="https://files.soulsie.xyz/assets/images/icon.png" type="image/x-icon">
+    <link rel="canonical" href="https://soulsie.gay" />
+    <link href="/portfolio/contact.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?display=swap&family=Inter:ital,wght@0,300;0,800;1,300;1,800" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <h1 id="header">Contact (Outdated)</h1>
+                <form id="contact" method="post" class="style1">
+                    <div class="inner">
+                        <div class="field"><input type="text" name="name" id="contact-name" placeholder="Name" maxlength="128" required /></div>
+                        <div class="field"><input type="email" name="email" id="contact-email" placeholder="Email" maxlength="128" required /></div>
+                        <div class="field"><input type="text" name="subject" id="contact-subject" placeholder="Subject" maxlength="128" required /></div>
+                        <div class="field"><input type="text" name="url" id="contact-url" placeholder="Url" maxlength="128" /></div>
+                        <div class="field"><textarea data-gramm_editor="false" name="message" id="contact-message" placeholder="Message" maxlength="16384" required></textarea></div>
+                        <div class="field">
+                            <div class="checkbox"><input type="checkbox" name="consent" id="contact-consent" value="checked" required /><label for="contact-consent"><span>I accept the above information will be used to contact me.</span></label></div>
+                        </div>
+                        <div class="actions"><button type="submit">Submit</button></div>
+                    </div><input type="hidden" name="id" value="contact" /></form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+    <script src="/portfolio/contact.js"></script>
+</body>
+</html>
