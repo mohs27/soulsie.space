@@ -47,7 +47,7 @@
  #sucky-sucky-funny-funny {
      white-space: nowrap;
      text-align: center;
-     transform: perspective(400px) rotateX(30deg);
+     transform: perspective(-100px) rotateX(-30deg);
      animation: crawl 30s linear infinite;
      font-size: 23pt;
 }
@@ -88,7 +88,7 @@
                 Currency: data.currency,
                 Languages: data.languages,
             }
-            const Container = document.getElementById("sucky-sucky-funny-funny");
+            const Container = document.getElementById("sucky-sucky-funny-funny")
             const newText = `
             <p>IP: ${Information.IP}</p>
             <hr id="space">
@@ -125,8 +125,8 @@
             <p>Currency: ${Information.Currency} / ${Information.Currency_Name}</p>
             <hr id="space">
             <p>Languages: ${Information.Languages}</p>
-                `;
-            window.onload = Container.innerHTML = newText; 
+                `
+            window.onload = Container.innerHTML = newText
         })
     </script>
   </body>
